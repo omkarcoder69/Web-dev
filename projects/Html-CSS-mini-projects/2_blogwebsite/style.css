@@ -1,0 +1,13 @@
+.blog-center{
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+p{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    
+}
