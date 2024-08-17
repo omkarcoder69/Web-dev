@@ -1,0 +1,67 @@
+/* 1 escendant selector
+ means  inside div tag we accessing to change color of p */
+div p {
+  color: red;
+  background-color: aqua;
+}
+
+/* 2 adjacent sibling combinator */
+ul + li {
+  color: blue;
+}
+
+/*3  child combinator */
+span > button {
+  background-color: rgb(250, 2, 2);
+  color: antiquewhite;
+  border: none;
+}
+
+/* 4 attribute selectors */
+/* reference:https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors */
+a[href*="example"] {
+  font-size: 2em;
+}
+
+/* 5 pseudo classes */
+button {
+  background-color: black;
+  color: white;
+}
+/* 1:hover  */
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* 2:checked */
+/* button:checked {
+  background-color: white;
+  color: black;
+} */
+
+/* pseudo elements */
+
+/* 1first letter- only 1 st letter of any element */
+p::first-letter {
+  color: rgb(245, 140, 2);
+}
+
+/* 2first line- only 1 st line of any element */
+h3::first-line {
+  color: rgb(2, 245, 14);
+}
+
+/* h3::selection{
+   color: red;
+} */
+
+/* 6 what is cascade in css
+ In CSS, the cascade refers to the process by which the browser determines which styles to apply when multiple rules could apply to the same element. It resolves conflicts by considering specificity, importance (e.g., !important), and the order of appearance in the stylesheet.
+*/
+/* css tags change upar se nhi niche se change hota 
+jese eg phele tumne burger khaya phir roti but hamne burger hi thodi khaya roti khaya 
+he so tags runs on current time */
+h1{
+  color: blueviolet;
+}
