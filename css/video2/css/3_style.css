@@ -1,0 +1,39 @@
+/* it sets whether an element is treated as 
+block or inline element and the layout used for
+its children
+display:inline;
+display:block;->content comes in div format means in 2 line
+display:none;->content will disappear
+*/
+
+/* percentage (%):
+  example:
+  width: 100px || relative to the parent
+  margin-left:30px || relative to thhe parent size
+*/
+div {
+ 
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border: 5px solid blue;
+  margin: 20px;
+
+}
+/* .box-1{
+  display: block;
+}
+.box-2{
+  display: inline;
+}
+.box-3{
+  display: inline-block;
+} */
+
+.child1{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border: 5px solid blue;
+  margin: 20px;
+}

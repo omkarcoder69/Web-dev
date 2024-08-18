@@ -1,0 +1,51 @@
+
+/* 1 */
+.myid p {
+  color: green;
+}
+/* 2 */
+#main-Topic {
+  color: orangered;
+}
+/* 3 */
+* {
+  text-align: center;
+}
+/* 4 */
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+/* 5 */
+div p{
+    color: white;
+    background-color: cornflowerblue;
+}
+/* 6 */
+button{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+/* 7 */
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+/* 8 */
+h2::first-letter{
+    color: red;
+}
+/* 12 */
+/* 1em=16px */
+.box{
+  height: 150px;
+  width: 300px;
+  background-color: grey;
+  border: 5px black dotted ;
+  margin-top: 20px;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  padding: 1em;
+}

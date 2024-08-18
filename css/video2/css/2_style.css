@@ -1,0 +1,68 @@
+/* div takes it full width */
+/* https://excalidraw.com/#json=SALGh_1Djzh_rIpdrg6MB,PwLGjXoWfdW05FfwwVRNxQ */
+/* The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners. */
+
+div {
+  /* 7 */
+  background-color: orangered;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+/* border */
+.box-1 {
+  border-width: 5px;
+  border-style: solid;
+  border-style: dotted;
+  border-color: blue;
+  border-radius: 100px; 
+  
+}
+
+.box-2 {
+  border-top: 5px solid black;
+  border-left: 5px solid blue;
+  border-right: 5px solid green;
+  border-bottom: 5px solid rgb(6, 248, 228) ;
+  
+}
+/* The padding CSS shorthand property sets the padding area on all four sides of an element at once */
+/* padding: 30px increasing from 4 sides */
+/*  */
+.box-3{
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.box-4{
+  padding: 10px;
+  /* 1 for all 4 slides*/
+  /* padding: 50px; */
+
+  /* 2 top & bottom / left & right */
+  /* padding: 1px 2px; */
+
+  /* 3 top/left & right/bottom */
+  /* padding: 10px 20px 30px; */
+
+  /* 4 top/right/bottom/let */
+  /* padding: 1px 2px 3px 4px; */
+}
+
+/* Haan, bilkul sahi! Margin ka matlab hai ek element ke bahar jo space hota hai. Margin element aur uske aas-paas ke doosre elements ke beech ki doori ko define karta hai. */
+.box-5{
+  margin-top: 20px ;
+  margin-right: 20px ;
+  margin-bottom: 20px ;
+  margin-left: 20px ;
+}
+.box-6{
+  /* margin: 20px ; */
+  /* margin: 20px  20px;
+  margin: 20px 20px 20px;
+  margin: 20px 20px 20px 20px; */
+  margin: 20px;
+}
+/* https://excalidraw.com/#json=SALGh_1Djzh_rIpdrg6MB,PwLGjXoWfdW05FfwwVRNxQ */
