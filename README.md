@@ -10,6 +10,11 @@ https://github.com/omkarcoder69/Web-dev/tree/main/html
 
 video 2: Css
 
-https://youtu.be/SIZXp-MEMLY?feature=shared
+part1: https://youtu.be/SIZXp-MEMLY?feature=shared
 
+part2: https://youtu.be/IRQGXNXyVAY?feature=shared
+
+part3: https://youtu.be/ic-ruj0gj8E?feature=shared
+
+cssnotes:  
 https://drive.google.com/drive/folders/1gOASm9gFrkg0E4_KHavBvVtF3uj3KcBM
