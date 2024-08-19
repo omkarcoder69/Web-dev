@@ -1,0 +1,61 @@
+/* 19 */
+.card {
+  width: 300px;
+  height: 320px;
+  border: 2px solid black;
+  transition-property: img;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  transition-delay: 1s;
+}
+.card:hover {
+  rotate: 10deg;
+}
+h3 {
+  color: red;
+  position: relative;
+  bottom: 10px;
+}
+/* h1{
+    
+} */
+img {
+  width: 300px;
+}
+/* 21 */
+.smile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  display: flex;
+  position: absolute;
+}
+.left-eye {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: black;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+.right-eye {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: black;
+  position: absolute;
+  top: 3rem;
+  left: 8rem;
+}
+.face{
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    border-radius: 0 0 200px 200px ;
+    position: absolute;
+    top: 8rem;
+    left: 5.5rem;
+}
