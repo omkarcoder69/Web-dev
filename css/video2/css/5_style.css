@@ -1,0 +1,59 @@
+/* position */
+/* static: no change */
+/*  */
+/* position */
+/* position property ka use karke aap elements ko page par alag-alag tarike se place kar sakte hain. Is property ke kuch commonly used values hain: 
+static, relative, absolute, fixed, aur sticky. */
+
+.main-box {
+    width: 50%;
+    height: 100%;
+    background-color: rebeccapurple;
+    border: 1rem solid black;
+    display: flex;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+  }
+  
+  /*position:static ;Yeh default value hoti hai, jab aap position property define nahi karte, toh element static position mein hota hai. */
+  .box-1 {
+    position: static;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  /*position:relative; Yeh element apni normal position ke hisaab se move hota hai, lekin page ke flow mein apni jagah banaye rakhta hai. */
+  .box-2 {
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  /* position:fixed Yeh element viewport (browser window) ke relative position leta hai, aur scroll karne par bhi apni jagah pe fix rehta hai. */
+  .box-3 {
+    background-color: aquamarine;
+    position: fixed;
+  }
+  
+  /* eh element initially apne normal flow mein rehta hai (relative positioning), lekin jab user scroll karta hai aur element ek specific position tak pahuchta hai, toh yeh fixed position mein convert ho jata hai. */
+  
+  .box-4 {
+      position: sticky;
+      top: 20px;
+      right: 20px;
+      bottom: 20px;
+      left: 20px;
+  }
+  #unique{
+      position: fixed;
+      padding: 20px;
+  }
+  
