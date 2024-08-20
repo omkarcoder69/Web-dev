@@ -1,0 +1,149 @@
+/* 1 display: flex
+
+by default flex-direction: column;
+*/
+
+/* flex-direction:column-reverse -> means in reverse form reg colour comes last  */
+.flex-container {
+  width: 400px;
+  height: 200px;
+  border: 4px solid black;
+  /* flex means all in 1 line */
+  display: flex;
+  /* flex-direction: column-reverse; */
+  flex-direction: row;
+  flex-direction: row-reverse;
+}
+.flex-items1 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: red;
+}
+.flex-items2 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: blue;
+}
+.flex-items3 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: green;
+}
+
+/* justify content */
+
+/* justify-content ____ */
+/* align center | */
+.justify-content {
+  width: 400px;
+  height: 200px;
+  border: 4px solid black;
+  /* flex means all in 1 line */
+  display: flex;
+  justify-content: center;
+  /* justify-content: first baseline; */
+  /* justify-content: end; */
+  /* justify-content:right; */
+  /* justify-content: space-around ; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  align-items: center;
+  align-items: flex-start;
+}
+.flex-items1 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: red;
+}
+.flex-items2 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: blue;
+}
+.flex-items3 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: green;
+}
+.flex-items4 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: brown;
+}
+.flex-items5 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: yellow;
+}
+.flex-items6 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: burlywood;
+}
+
+/* align items */
+.align-items {
+
+  width: 400px;
+  height: 200px;
+  border: 4px solid black;
+  /* flex means all in 1 line */
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  /* this only works in we use width and height */
+  align-content: space-between;
+  
+  align-items: flex-end;
+
+  /* flex-basis later task */
+}
+.flex-items1 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: red;
+  flex-grow: 5;
+}
+.flex-items2 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: blue;
+}
+.flex-items3 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: green;
+}
+.flex-items4 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: brown;
+}
+.flex-items5 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: yellow;
+}
+.flex-items6 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid rgb(79, 9, 243);
+  background-color: burlywood;
+}
