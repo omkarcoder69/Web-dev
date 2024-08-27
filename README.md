@@ -1,4 +1,11 @@
 # Web-dev
+<h1>udemy course + youtube learning
+  
+links
+
+<a href="https://www.udemy.com/course/master-full-stack-web-development-novice-to-expert/?couponCode=SKILLS4SALEA">udemy course</a>
+
+<a href="https://www.youtube.com/@lifetimecodingofficial/videos">lifetime coding</a>
 
 video 1: Html
 
