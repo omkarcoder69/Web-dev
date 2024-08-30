@@ -25,5 +25,5 @@ part3: https://youtu.be/ic-ruj0gj8E?feature=shared
 cssnotes:  
 https://drive.google.com/drive/folders/1gOASm9gFrkg0E4_KHavBvVtF3uj3KcBM
 
-<h1>video 3: Tailwand Css</h1>h1>
+<h1>video 3: Tailwand Css</h1>
 
